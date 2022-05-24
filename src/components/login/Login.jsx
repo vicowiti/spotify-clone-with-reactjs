@@ -1,5 +1,6 @@
 import React from "react";
 import "./login.css";
+import { loginUrl } from "../../spotify logic/spotify";
 
 const Login = () => {
   return (
@@ -10,7 +11,9 @@ const Login = () => {
         alt="Spotify Logo"
       />
 
-      <a className="login__button">LOGIN WITH SPOTIFY</a>
+      <a className="login__button" href={loginUrl}>
+        LOGIN WITH SPOTIFY
+      </a>
     </div>
   );
 };
