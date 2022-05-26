@@ -16,3 +16,11 @@
   color: #fff;
   text-decoration: none;
 }
+
+.login__button,
+.login__button:hover,
+.login__button:visited,
+.login__button:active {
+  color: inherit;
+  text-decoration: none !important;
+}
